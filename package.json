@@ -1,0 +1,47 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "build-css": "tailwindcss build src/styles/main.css -o dist/styles.css"
+  },
+  "dependencies": {
+    "@civic/ethereum-gateway-react": "^1.2.9",
+    "@heroicons/react": "^2.1.4",
+    "@tailwindcss/typography": "^0.5.13",
+    "@tanstack/react-query": "^5.45.1",
+    "@types/styled-components": "^5.1.34",
+    "@wagmi/core": "^2.11.6",
+    "connectkit": "^1.8.2",
+    "ethers": "^6.13.1",
+    "i18next": "^23.11.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "tailwindcss": "^3.4.4",
+    "viem": "^2.16.1",
+    "wagmi": "^2.10.9",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "@types/lodash.merge": "^4.6.9",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "typescript": "^5.5.2",
+    "vite": "^5.2.0"
+  }
+}
